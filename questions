@@ -1,0 +1,30 @@
+Question 1:
+Lista jest to zmienna zawierająca uporządkowany zbiór elementów.
+Listy są modyfikowalne, czyli można dodawać i zmieniać poszczególne elementy danej listy. Elementami listy mogą być dowolne typy danych dostępnych w Pythonie.
+
+Questions 2:
+
+Singleton:
+Singleton jest kreacyjnym wzorcem projektowym, który pozwala zapewnić istnienie wyłącznie jednej instancji danej klasy. Ponadto daje globalny punkt dostępowy do tejże instancji.
+
+Adapter:
+Adapter jest strukturalnym wzorcem projektowym pozwalającym na współdziałanie ze sobą obiektów o niekompatybilnych interfejsach.
+
+Fabryka abstrakcyjna :
+Fabryka abstrakcyjna jest kreacyjnym wzorcem projektowym, który pozwala tworzyć rodziny spokrewnionych ze sobą obiektów bez określania ich konkretnych klas.
+
+Quesions 3:
+
+Instancje:
+Obiekty instancji przechowują dane i wykonują pożądane operacje .
+
+Atrybuty:
+Jednym z problemów jest to, że instancje nie mogą przechowywać żadnych danych.
+
+Metoda
+Metoda w Pythonie jest nieco podobna do funkcji, z wyjątkiem tego, że jest powiązana z obiektem/klasami.  Metody w Pythonie są bardzo podobne do funkcji, z wyjątkiem dwóch głównych różnic.  Metoda jest niejawnie używana dla obiektu, dla którego jest wywoływana.  Metoda jest dostępna dla danych zawartych w klasie.
+
+
+Interfaces :
+W Pythonie interfejsy nie są potrzebne.  Dzieje się tak, ponieważ Python ma odpowiednie dziedziczenie wielokrotne, a także ducktyping, co oznacza, że   miejsca, w których musisz mieć interfejsy w Javie, nie musisz ich mieć w Pythonie.
+Zastosowaniem jest sytuacja, gdy jest potrzeba w jakiś sposób określić, że obiekt implementuje określony interfejs, i możesz również do tego użyć ABC, tworząc z nich podklasy.  Innym sposobem jest zope.interface, moduł będący częścią Zope Component Architecture.  Tutaj nie trzeba tworzyć  podklas z interfejsów, ale zamiast tego oznaczasz klasy (lub nawet instancje) jako implementujące interfejs.  Można to również wykorzystać do wyszukiwania komponentów z rejestru komponentów.
