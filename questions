@@ -19,7 +19,7 @@ Instancje:
 Obiekty instancji przechowują dane i wykonują pożądane operacje .
 
 Atrybuty:
-Jednym z problemów jest to, że instancje nie mogą przechowywać żadnych danych.
+Atrybut klasy to zmienna Pythona, która należy do klasy, a nie do konkretnego obiektu. Jest on współdzielony przez wszystkie obiekty tej klasy i jest zdefiniowany poza funkcją konstruktora __init__(self,...) klasy.
 
 Metoda
 Metoda w Pythonie jest nieco podobna do funkcji, z wyjątkiem tego, że jest powiązana z obiektem/klasami.  Metody w Pythonie są bardzo podobne do funkcji, z wyjątkiem dwóch głównych różnic.  Metoda jest niejawnie używana dla obiektu, dla którego jest wywoływana.  Metoda jest dostępna dla danych zawartych w klasie.
